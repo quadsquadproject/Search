@@ -19,9 +19,6 @@ function App(){
         <div>
             <SearchBar onSubmit={handleSubmit}/>
             <ImageList images={images}/>
-            <div>
-                Hello there
-            </div>
         </div>
     );
 }
